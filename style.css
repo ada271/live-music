@@ -25,6 +25,7 @@ ul li{
 
 .social-media{
     margin-left: 20px;
+    font-size: 20px;
 }
 .nav{
     display: flex;
@@ -33,12 +34,16 @@ ul li{
 
 .navigate{
     margin-left: 20px;
-    font-family: ;
+    font-family:'Rubik Glitch';
 
 }
 .navigate li{
-    margin-left: 10px;
+    margin-left: 10px;    
 
+}
+
+.navigate li:hover{
+    background-color: #ff0078;
 }
 
 main{
@@ -71,18 +76,58 @@ footer div p {
 footer{
     display: flex;
     /* flex-wrap: wrap; */
+    text-align: center;
+    
+}
+
+.fa-music{
+    background-color: #ff0078 ;
+}
+
+.fa-user{
+    background-color: coral;
+}
+
+.fa-video{
+    background-color: aquamarine;
+}
+
+footer{
+    margin-top: 84px;
 }
 
 footer i{
     font-size: 50px;
+    /* background-color: black; */
+    border-radius: 100px;
+    padding: 23px;
+    width: 15%;
+    margin: auto;
+    
+    
 }
+
 
 .new{
     margin-bottom: 40px;
+    font-family: 'Roboto';
+    border-bottom: 2px solid #ff0078;
+    width: 120px;
+    margin: 0 auto 40px  ;
+    
 }
 
 .tectonic{
     font-size: 24px;
+    font-family: 'Permanent Marker';
+}
+
+.tectonic:hover{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ff0078;
+    text-decoration: underline;
 }
 
 .long{
@@ -94,4 +139,16 @@ footer i{
     border-radius: 25px;
     background-color: #ff0078;
     color: white;
+    font-size: 10px;
 }
+
+.more:hover{
+    background-color: white;
+    color: #ff0078;
+    border: none;
+}
+
+.new span{
+    font-size: 20px;
+}
+
