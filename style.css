@@ -4,12 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: white;
 }
 
 body{
     background-image: url(assets/audience-1850119_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 ul{
