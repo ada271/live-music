@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    color: white;
+}
+
+body{
+    background-image: url(assets/audience-1850119_1280.jpg);
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.social-media{
+    margin-left: 20px;
+}
+.nav{
+    display: flex;
+    background-color: black;
+}
+
+.navigate{
+    margin-left: 20px;
+    font-family: ;
+
+}
+.navigate li{
+    margin-left: 10px;
+
+}
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.text{
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+
+}
+
+footer div p {
+    width: 20%;
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+footer i{
+    font-size: 50px;
+}
+
+.new{
+    margin-bottom: 40px;
+}
+
+.tectonic{
+    font-size: 24px;
+}
+
+.long{
+    margin: 20px;
+}
+
+.more{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ff0078;
+    color: white;
+}
