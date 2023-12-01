@@ -65,6 +65,9 @@ footer div{
     flex-direction: column;
     text-align: center;
     width: 33%;
+    border-right: 2px solid #ff0078;
+    margin: auto;
+    height: 100%;
 
 }
 
@@ -95,7 +98,8 @@ footer{
 }
 
 footer{
-    margin-top: 84px;
+    margin-top: 88px;
+    background-color: rgba(0, 0, 0, 0.466);
 }
 
 footer i{
