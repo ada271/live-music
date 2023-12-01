@@ -141,11 +141,14 @@ footer i{
 }
 
 .more{
+    font-size: 12px;
     padding: 10px;
     border-radius: 25px;
     background-color: #ff0078;
     color: white;
-    font-size: 10px;
+    
+    border: none;
+    
 }
 
 .more:hover{
